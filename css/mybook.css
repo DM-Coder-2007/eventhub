@@ -1,0 +1,396 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #070718;
+}
+
+#navm {
+    width: 100%;
+    background-color: #070718;
+    height: 50px;
+    display: flex;
+    color: oklch(70.4% 0.04 256.788);
+    gap: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+#hnem {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 10px
+}
+
+#hn1m {
+    margin-left: 800px;
+    cursor: pointer;
+    position: relative;
+    top: 2px
+}
+
+.text-gradient1m {
+    /* 1. Create the gradient (approximating the colors from your image) */
+    background-image: linear-gradient(to right, #dbeafe, #818cf8);
+
+    /* 2. Clip the background to the text shape */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* 3. Make the actual text fill transparent */
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* Standard fallback */
+}
+
+#hn2m,
+#hn3m,
+#hn4m,
+#hn5m {
+    cursor: pointer;
+    position: relative;
+    top: 2px
+}
+
+#hn5m {
+    /* 1. Create the gradient (approximating the colors from your image) */
+    background-image: linear-gradient(to right, #dbeafe, #818cf8);
+
+    /* 2. Clip the background to the text shape */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* 3. Make the actual text fill transparent */
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* Standard fallback */
+}
+
+#hn1m:hover,
+#hn2m:hover,
+#hn3m:hover,
+#hn4m:hover,
+#hn5m:hover {
+    /* color:#7c86ff; */
+    /* 1. Create the gradient (approximating the colors from your image) */
+    background-image: linear-gradient(to right, #dbeafe, #818cf8);
+
+    /* 2. Clip the background to the text shape */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* 3. Make the actual text fill transparent */
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* Standard fallback */
+    transition: 0.7s;
+}
+
+.calendar-icon-wrapperm {
+    position: relative;
+    top: -6px;
+    left: 20px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 3.0rem;
+    /* 56px */
+    height: 2.7rem;
+    /* 56px */
+
+    background-color: #6b6bfe;
+
+    border-radius: 1.100rem;
+    /* 18px */
+}
+
+.calendar-svgm {
+    width: 1.75rem;
+    /* 28px */
+    height: 1.75rem;
+    /* 28px */
+
+    color: #ffffff;
+    position: relative;
+    left: 0.5px
+}
+
+#topm {
+    width: 100%;
+    height: 280px;
+    background-color: oklch(20.8% 0.042 265.755);
+    padding-left: 150px;
+    /* background-image: url(../media/img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#hav1m {
+    text-align: center;
+    position: relative;
+    top: 5px
+}
+
+#dat1m {
+    position: relative;
+    top: 70px;
+    width: 210px;
+    height: 30px;
+    border-radius: 20px;
+    /* background-color: color-mix(in srgb, oklch(58.5% 0.233 277.117) 10%, transparent); */
+    background-color: rgba(99, 102, 241, 0.1);
+    /* Equivalent to #6366f11a */
+
+    /* 2. The 20% opacity indigo border */
+    border: 2px solid rgba(99, 102, 241, 0.2);
+    color: #818cf8;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#hat1m {
+    font-size: 50px;
+    position: relative;
+    top: 80px;
+    color: white;
+    left: -495px;
+    margin-left: 100px;
+}
+
+#hat2m {
+    position: relative;
+    margin-top: 100px;
+    color: oklch(70.4% 0.04 256.788);
+    font-weight: 300;
+    left: -520px;
+    margin-left: 100px;
+}
+
+#book-event-btn {
+    text-align: center;
+    background-color: #4e36d9;
+    color: #ffffff;
+    border: none;
+    width: 170px;
+    height: 45px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.2s ease;
+    margin-left: 980px;
+    position: relative;
+    top:-100px
+}
+
+#book-event-btn:hover {
+    background-color: #6146ff;
+}
+
+#book-event-btn svg {
+    width: 21px;
+    height: 21px;
+    margin-left: -2px;
+}
+
+#h2m{
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+#lm1{
+    width:1110px;
+    border-top: 1px solid #2d3548;
+    margin-left: 200px;
+    margin-top: 24px;
+}
+
+
+/* PREMIUM TICKET UI */
+.premium-ticket {
+    display: flex;
+    background-color: #121727;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    margin-top: 25px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    position: relative;
+    max-width: 850px;
+}
+
+.ticket-left {
+    flex: 1;
+    padding: 25px;
+}
+
+.ticket-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 15px;
+}
+
+.event-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.event-date {
+    color: #818cf8;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ticket-body {
+    display: flex;
+    gap: 40px;
+}
+
+.ticket-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.detail-label {
+    color: #8b96a8;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.detail-value {
+    color: #e2e8f0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* The Perforated Tear Line */
+.ticket-divider {
+    width: 2px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 50%, transparent 50%);
+    background-size: 2px 12px;
+    background-repeat: repeat-y;
+    position: relative;
+}
+
+/* Creating the semi-circle cutouts on the ticket edges */
+.ticket-divider::before, .ticket-divider::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #050814;
+    border-radius: 50%;
+    left: -11px;
+}
+
+.ticket-divider::before { top: -12px; }
+.ticket-divider::after { bottom: -12px; }
+
+.ticket-right {
+    width: 200px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.booking-code-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.code-label {
+    display: block;
+    color: #8b96a8;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.code-value {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: rgba(139, 92, 246, 0.1);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.cancel-btn {
+    background-color: transparent;
+    color: #ef4444;
+    border: 1px solid #ef4444;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.cancel-btn:hover {
+    background-color: #ef4444;
+    color: #ffffff;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 700px) {
+    .premium-ticket { flex-direction: column; }
+    .ticket-divider { 
+        width: 100%; height: 2px; 
+        background-image: linear-gradient(to right, rgba(255,255,255,0.1) 50%, transparent 50%);
+        background-size: 12px 2px; background-repeat: repeat-x;
+    }
+    .ticket-divider::before, .ticket-divider::after {
+        left: auto; width: 20px; height: 20px; top: -10px;
+    }
+    .ticket-divider::before { left: -10px; }
+    .ticket-divider::after { right: -10px; }
+    .ticket-right { width: 100%; }
+}
+
+#logout-btn{
+    background-color: transparent; border: 1px solid #ef4444; color: #ef4444; padding: 12px 24px; border-radius: 8px; cursor: pointer; margin-left: 15px; font-weight: 600; font-size: 16px;
+    position: relative;
+    left:480px;
+    top:-145px;
+    transition:all 0.3s ease;
+}
+
+#logout-btn:hover {
+    background-color: #ef4444;
+    color: #ffffff;
+    /* box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4); */
+}
+

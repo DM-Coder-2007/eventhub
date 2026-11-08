@@ -1,0 +1,232 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+        background-color: #050814; /* Dark background from the image */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: #ffffff;
+    }
+
+    /* Card Container */
+    .ticket-card {
+        background-color: #121727;
+        width: 380px;
+        border-radius: 16px;
+        padding: 24px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.03);
+    }
+
+    /* Header Section */
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .price-info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .price-label {
+        color: #8b96a8;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .price-value {
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+    }
+
+    .seats-badge {
+        background-color: rgba(255, 160, 18, 0.1);
+        color: #ffa012;
+        border: 1px solid rgba(255, 160, 18, 0.3);
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 8px;
+    }
+
+    /* Divider */
+    .divider {
+        height: 1px;
+        background-color: #21293c;
+        margin: 0 0 24px 0;
+        width: 100%;
+    }
+
+    /* Quantity Section */
+    .quantity-section {
+        margin-bottom: 24px;
+    }
+
+    .section-label {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 12px;
+        color: #e2e8f0;
+    }
+
+    .quantity-controls {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .qty-btn {
+        background-color: #1c2336;
+        border: 1px solid #283149;
+        color: #a0abc0;
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s;
+    }
+
+    .qty-btn:hover {
+        background-color: #252e46;
+        color: #ffffff;
+    }
+
+    .qty-display {
+        flex: 1;
+        background-color: #1c2336;
+        border: 1px solid #283149;
+        height: 44px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    /* Summary Box */
+    .summary-box {
+        background-color: #171c2d;
+        border: 1px solid #252d43;
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+
+    .summary-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
+
+    .summary-row:last-child {
+        margin-bottom: 0;
+    }
+
+    .summary-row .label {
+        color: #8b96a8;
+    }
+
+    .summary-row .value {
+        color: #a0abc0;
+    }
+
+    .summary-row .value.free {
+        color: #00c07f;
+        font-weight: 600;
+    }
+
+    .inner-divider {
+        height: 1px;
+        background-color: #21293c;
+        margin: 12px 0;
+    }
+
+    .total-row {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .total-row .label {
+        color: #ffffff;
+    }
+
+    .total-row .value {
+        color: #7d8cff;
+    }
+
+    /* Action Button */
+    .book-btn {
+        width: 100%;
+        background-color: #5d45ff;
+        color: white;
+        border: none;
+        padding: 16px;
+        border-radius: 12px;
+        font-size: 15px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        margin-bottom: 20px;
+    }
+
+    .book-btn:hover {
+        background-color: #4f39e6;
+    }
+
+    .book-btn svg {
+        width: 20px;
+        height: 20px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    /* Footer Section */
+    .card-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        color: #64718a;
+        font-size: 11px;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .card-footer svg {
+        width: 14px;
+        height: 14px;
+        stroke: #00c07f;
+        fill: none;
+        stroke-width: 2;
+        flex-shrink: 0;
+    }

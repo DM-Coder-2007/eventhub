@@ -1,0 +1,398 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #070718;
+}
+
+#top {
+    width: 100%;
+    height: 280px;
+    background-color: oklch(20.8% 0.042 265.755);
+    padding-left: 150px;
+    /* background-image: url(../media/img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#hav1 {
+    text-align: center;
+    position: relative;
+    top: 5px
+}
+
+#dat1 {
+    position: relative;
+    top: 70px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    /* background-color: color-mix(in srgb, oklch(58.5% 0.233 277.117) 10%, transparent); */
+    background-color: rgba(99, 102, 241, 0.1);
+    /* Equivalent to #6366f11a */
+
+    /* 2. The 20% opacity indigo border */
+    border: 2px solid rgba(99, 102, 241, 0.2);
+    color: #818cf8;
+}
+
+#hat1 {
+    font-size: 50px;
+    position: relative;
+    top: 80px;
+    color: white;
+}
+
+#hat2 {
+    margin-top: 100px;
+    color: oklch(70.4% 0.04 256.788);
+    font-weight: 300
+}
+
+#da1 {
+    display: flex;
+    color: white;
+    margin-top: 50px;
+}
+
+#da2 {
+    width: 330px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid #232a3b;
+    margin-left: 249px;
+    background-color: #0f172b;
+    display: flex;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+#da2_1 {
+    width: 330px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid #232a3b;
+    margin-left: 16px;
+    background-color: #0f172b;
+    display: flex;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+#da2_2 {
+    width: 330px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid #232a3b;
+    margin-left: 15px;
+    background-color: #0f172b;
+    display: flex;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+#da3 {
+    height: 60%;
+    width: 60px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+    margin-left: 20px;
+    margin-top: 19px;
+}
+
+#ha1 {
+    color: oklch(70.4% 0.04 256.788);
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#spa1 {
+    color: white;
+    font-size: 24px;
+}
+
+#create-event {
+    width: 975px;
+    height: 900px;
+    border-radius: 20px;
+    background-color: #0f172b;
+    border: 1px solid #232a3b;
+    margin-left: 252px;
+    margin-top: 40px;
+    padding-left: 45px;
+    padding-top: 33px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+#hf1 {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    position: relative;
+    left: 15px;
+    margin-top: -15px;
+}
+
+#hf2 {
+    color: oklch(70.4% 0.04 256.788);
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#df1 {
+    width: 920px;
+    border-top: 1px solid oklch(27.9% 0.041 260.031);
+    margin-top: 24px;
+    padding-top: 24px;
+}
+
+#lf1,
+#lf2,
+#lf3,
+#lf4,
+#lf5,
+#lf6,
+#lf7,
+#lf8,
+#lf9,
+#lf10,
+#lf11 {
+    color: oklch(86.9% 0.022 252.894);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#lf2 {
+    position: relative;
+    top: 20px;
+}
+
+#lf3,
+#lf5,
+#lf7,
+#lf10 {
+    position: relative;
+    top: -29px;
+    left: 15px
+}
+
+#inf1,#inf9 {
+    width: 920px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: oklch(27.9% 0.041 260.031);
+    border: none;
+    border: 1px solid oklch(37.2% 0.044 257.287);
+    position: relative;
+    top: -17px;
+    margin-top: 22px;
+}
+
+
+#inf2,
+#inf3,
+#inf4,
+#inf5,
+#inf6,
+#inf7,
+#inf8 {
+    width: 440px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: oklch(27.9% 0.041 260.031);
+    border: none;
+    border: 1px solid oklch(37.2% 0.044 257.287);
+    color: white;
+    position: relative;
+    top: 5px;
+    padding-left: 10px;
+    color-scheme: dark;
+}
+
+#category {
+    width: 450px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: oklch(27.9% 0.041 260.031);
+    border: none;
+    border: 1px solid oklch(37.2% 0.044 257.287);
+    color: white;
+    position: relative;
+    top: 5px;
+    padding-left: 10px;
+    margin-top:-10px
+}
+
+#inf2,
+#inf4,
+#inf6,
+#inf8 {
+    position: relative;
+    left: 470px;
+    top: -38px
+}
+
+
+
+#spf1 {
+    margin-top: 30px;
+}
+
+#category:focus {
+    border-color: #6d5dfc;
+}
+
+/* #inf1:focus,#category:focus,#inf2:focus,#inf3:focus,#inf4:focus,#inf5:focus,#inf6:focus{
+    border-color: #6d5dfc;
+} */
+
+#subf {
+    width: 920px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: oklch(51.1% 0.262 276.966);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#subf:hover {
+    background-color: #5d45ff;
+}
+
+#tf1 {
+    width: 905px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: oklch(27.9% 0.041 260.031);
+    border: none;
+    border: 1px solid oklch(37.2% 0.044 257.287);
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+/* The outer circle */
+.circle-plus {
+    position: relative;
+    width: 24px;
+    /* Set width to 10px */
+    height: 24px;
+    /* Set height to 10px */
+    box-sizing: border-box;
+    border: 1.5px solid #7c83fd;
+    /* Scaled down to 1px for clarity at this size */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -38px;
+    top: 27px;
+    margin-left: 3px
+}
+
+/* Shared properties for the intersecting lines */
+.circle-plus::before,
+.circle-plus::after {
+    content: "";
+    position: absolute;
+    background-color: #7c83fd;
+    border-radius: 99px;
+}
+
+/* The vertical line */
+.circle-plus::before {
+    width: 1px;
+    /* Scaled to 1px to match the border */
+    height: 50%;
+}
+
+/* The horizontal line */
+.circle-plus::after {
+    height: 1px;
+    /* Scaled to 1px to match the border */
+    width: 50%;
+}
+
+/* Container styling matching constraints and image colors */
+.icon-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #171933;
+    /* Dark blue background */
+    border: 2px solid #2b2f5c;
+    /* Lighter blue border ring */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* Ensures padding/borders don't exceed 60px */
+}
+
+/* Icon styling */
+.chart-icon {
+    width: 28px;
+    height: 28px;
+    color: #7b83f0;
+    /* Soft purple/blue icon color */
+}
+
+.icon-container2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #112527;
+    /* Dark teal background */
+    border: 2px solid #144237;
+    /* Darker green border ring */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* Ensures padding/borders don't exceed 60px */
+}
+
+/* Icon styling */
+.dollar-icon {
+    width: 30px;
+    height: 30px;
+    color: #1fd67c;
+    /* Bright green/teal icon color */
+}
+
+/* Container styling matching constraints and image colors */
+.icon-container3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    /* User specified */
+    background-color: #2D2B30;
+    /* Dark charcoal/brown background */
+    border: 2px solid #8F816D;
+    /* Muted gold/brown border */
+
+    /* Center the icon inside */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    /* Ensures padding/border doesn't exceed 60px */
+}
+
+/* Icon styling */
+.users-icon {
+    width: 32px;
+    height: 32px;
+    color: #F8BC1C;
+    position: relative;
+    /* Mustard gold icon color */
+}
